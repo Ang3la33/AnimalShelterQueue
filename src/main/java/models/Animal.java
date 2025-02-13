@@ -23,6 +23,10 @@ public abstract class Animal implements Comparable<Animal>{
         return Integer.compare(this.arrivalTime, other.arrivalTime);
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
 
 }
 
