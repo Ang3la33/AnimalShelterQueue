@@ -41,4 +41,10 @@ public class AnimalShelter {
     public Cat dequeueCat() {
         return catQueue.poll();
     }
+
+    // Method to display the number of dogs and cats at the shelter
+    public void displayAnimals() {
+        System.out.println("Current number of animals at shelter:");
+        System.out.println("Dogs: " + dogQueue.size() + " | Cats: " + catQueue.size());
+    }
 }
