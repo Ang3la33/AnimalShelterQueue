@@ -22,6 +22,8 @@ public abstract class Animal implements Comparable<Animal>{
     public int compareTo(Animal other) {
         return Integer.compare(this.arrivalTime, other.arrivalTime);
     }
+
+
 }
 
 
